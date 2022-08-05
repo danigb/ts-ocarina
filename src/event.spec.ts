@@ -1,4 +1,4 @@
-import { createEvent, mapEvent, oneOf, subscribe } from "./events";
+import { createEvent, mapEvent, oneOf, subscribe } from "./event";
 
 describe("mapEvent", () => {
   test("maps the value", () => {
